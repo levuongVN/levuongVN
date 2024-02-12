@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BT</title>
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Bungee+Shade|Covered+By+Your+Grace" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
+</head>
+<body style="background-color: #f16059; text-align: center;  font: 14px/26px 'Bungee', Helvetica, Arial, sans-serif;">
+    <h1 style="font-family: 'Bungee Shade', cursive; font-size: 250%;">LOLCAT CLOCK</h1>
+    <h2 style="margin-bottom: -2%;">I CAN HAZ TIME??</h2>
+    <div style="font-size: 250%;" 250%; " id="clock">
+        <p style="display: inline-block;" id="hour"></p>
+        <p style="display: inline-block;">:</p>
+        <p style="display: inline-block;" id="minute"></p>
+        <p style="display: inline;">:</p>
+        <p style="display: inline-block;" id="second"></p>
+        <p style="display: inline-block;" id="AM_or_PM"></p>
+    </div>
+    <div style="display: inline-block; position: absolute;left: 37%; top: 60%;">
+        <p style="color: white; font-size: 180%;" id="text_in_img"></p>
+    </div>
+        <img style="z-index: 1; display: inline-block;" id="img" src="https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat3.jpg" alt="">
+        <br>
+        <label style="font-size: larger;" for="">Wake Up At?</label>
+        <input style="border: 1% rgb(0, 0, 0);border-style:dashed  ;font-family:14px/26px 'Bungee', Helvetica, Arial, sans-serif ; font-size: 130%;" id="Wake" type="time" value="06:0">
+    <br>
+    <label style="font-size: larger;" for="">Lunch Time?</label>
+    <input style="border: 1% rgb(0, 0, 0);border-style:dashed  ;font-family:14px/26px 'Bungee', Helvetica, Arial, sans-serif ; font-size: 130%;margin-top: 1%;margin-bottom: 1%;" id="Lunch" type="time" value="12:0">
+    <br>
+    <label for="" style="font-size: larger;">Sleep when?</label>
+    <input type="time" id="Sleep" style=" border: 1% rgb(0, 0, 0);border-style:dashed  ;font-family:14px/26px 'Bungee', Helvetica, Arial, sans-serif ; font-size: 130%;margin-bottom: 1%;" value="18:0" >
+    <br>
+    <button style=" cursor: pointer;;font: 14px/26px 'Bungee', Helvetica, Arial, sans-serif; ; border: none; 
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(28, 125, 142) 0%, rgba(28, 125, 142) 90% );; color: white; font-size: larger;" 
+    id="btn" onclick="bam()">Party time ^^</button>
+
+    <script src="for_Web_BT.js"></script> <!--Nhúng file js vào cuối html-->
+</body>
+</html>
